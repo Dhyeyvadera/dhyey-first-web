@@ -1,0 +1,96 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dhyey vadera</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #332020;
+        }
+        header {
+            background-color: #2d0707;
+            color: #2d2626;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #23131e;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dhyey vadera the developer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./Premium Photo _ A man in a hood, a hacker, a hacker attack, a silhouette of a man, holds a laptop, threatens.jpg">></li>
+            <li><a href="./public/index.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>want too be</h2>
+        <div class="gallery">
+            <!-- Add your photos here -->
+            <img src="./public/Canon is hit by massive ransomware attack_ 10TB of user data at risk, with doubts as to whether or not images were compromised.jpg" alt="Photo 1">
+            <img src="./public/city(personal work).jpg" alt="Photo 2">
+            <img src="./Premium Photo _ A man in a hood, a hacker, a hacker attack, a silhouette of a man, holds a laptop, threatens.jpg" alt="Photo 3">
+            <!-- Add more photos as needed -->
+        </div>
+    </div>
+    <footer>
+        &copy; FIRST WEBSITE BY DHYEY
+    </footer>
+</body>
+</html>
